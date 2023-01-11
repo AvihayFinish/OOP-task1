@@ -10,3 +10,6 @@
 
 
 # Our Project:
+
+> our project its a continue project of the project UndoableStringBuilder. 
+> in this project we append the option to be a member of updating about the changes in the UndoableStringBuilder object.
