@@ -1,7 +1,7 @@
 # waiters:
-> Avihay Finish , 208907113
+> Avihay Finish , 208907113.
 
-> Amit Rovshitz , 207701426
+> Amit Rovshitz , 207701426.
 
 - [Our Project](#our-project)
     - [Introduction](#introduction)
@@ -63,4 +63,9 @@
 > **variabels:** UndoableStringBuilder object <br>
 > **functions:** <br>
 > only a update function that updating the changes of the UndoableStringBuilder in the GroupAdmin.<br>
+
+
+# Tests:
+> we build three tests classes, two of them is a regular tests classes that uses the JUNIT, this tests only check if the functions in the GroupAdmin class and ConcreteMember class work well. <br>
+> the third test is test about the memory of the program that use the JvmUtilities class. this test help us to follow up about the changes that happen in the memory after turn on each function in our classes. <br>
  
