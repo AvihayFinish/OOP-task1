@@ -36,8 +36,7 @@
 > foe example - I want to follow after Donald Trump in twiter to know what he writes there. so instead of my account always asking Donald Trump if there a something
 > knew he write,  my account will be notify if Donald Trump write something.
 > to realizition this, we have to interfaces, Sender and Member, the somebody that will updating implements the Sender interface.
-> in the class that implements **Sender** :
-> we build the all function we want for the class and additional three things:
+> in the class that implements **Sender** :    we build the all function we want for the class and additional three things:
 > 1- some list that will hold all the members that registered.
 > 2- a Notify function - in this function we will run of all the members in the list and turn the Update function off the members
 > 3- some GetData function - that function return the data we want to update with the members.   
