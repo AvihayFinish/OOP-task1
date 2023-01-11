@@ -51,4 +51,16 @@
 > **variables:** UndoableStringBuilder object and a list <br>
 > **functions:** <br>
 > 1. we have the constructors, one empty constructor that get nothing, and another that get a UndoableStringBuilder <br>
-> 2. __register:__
+> 2. _register():_ this function get a Member obhect and add him to the list. <br>
+> 3. _unregister():_ this function get a Member object and remove him from the list. <br>
+> 4. _insert():_ this function get a int of offset and a String and insert the String in the offset index of the UndoableStringBuilde String. <br>
+> 5. _append():_ this function get a String and insert him in the end of the UndoableStringBuilde String. <br>
+> 6. _delete():_ this function get a int start and int end, the function remove the String between the index strat and index end of the UndoableStringBuilde String. <br>
+> 7. _undo():_ this function get nothing. he just do undo.<br>
+> 8. _notifyAll():_ this function get nothing. he run of all the members and turn the update function for each them.<br>
+
+> **concreteMember:** <br>
+> **variabels:** UndoableStringBuilder object <br>
+> **functions:** <br>
+> only a update function that updating the changes of the UndoableStringBuilder in the GroupAdmin.<br>
+ 
